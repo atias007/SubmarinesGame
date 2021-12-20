@@ -14,8 +14,6 @@ namespace SubmarinesGame
             util.SetBoard();
 
             Console.WriteLine(util.Hit(0, 0)); // TODO: should result Miss
-            
-            Console.WriteLine(util.Hit(0, 0)); // TODO: should result Miss
             Console.WriteLine(util.Hit(1, 0)); // TODO: should result Boom
             Console.WriteLine(util.Hit(0, 3)); // TODO: should result Hit
             Console.WriteLine(util.Hit(0, 4)); // TODO: should result Boom
